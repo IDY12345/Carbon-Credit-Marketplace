@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.leftsidebar {
+    @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-dark-2 pb-5 pt-28 max-md:hidden;
+  }
+
+  .topbar {
+    @apply fixed top-0 z-30 flex w-full items-center justify-between bg-light-1 px-6 py-3 text-black;
+  }
+
+  .main-container {
+    @apply flex min-h-screen flex-1 flex-col items-center bg-primary px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
+  }
+
+  .main-container1{
+    @apply flex min-h-screen flex-1 flex-col bg-primary px-6 pb-10 pt-28 max-md:pb-32 sm:px-10; 
+  }
+
+  .head-text {
+    @apply text-heading2-bold text-dark-1;
+  }
