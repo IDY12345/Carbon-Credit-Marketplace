@@ -1,6 +1,9 @@
 import React from 'react'
 
-const userDashboard = () => {
+// import Trades from '@/lib/models/trade.model'
+
+const userDashboard = async() => {
+
   return (
     <div>userDashboard</div>
   )
