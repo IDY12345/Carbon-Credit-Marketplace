@@ -43,7 +43,7 @@ const Impact = () => {
 
     return (
         <section className='pt-24 min-h-screen w-full'>
-            <h1 className={`${robotoMono.className} font-bold text-[64px] max-w-4xl`}>Impact of Carbon Credit Marketplace</h1>
+            <h1 className={`${robotoMono.className} font-bold text-[64px] max-w-4xl px-24`}>Impact of Carbon Credit Marketplace</h1>
 
             <div className='flex justify-center items-center flex-row'>
                 <Carousel setApi={setApi}>
